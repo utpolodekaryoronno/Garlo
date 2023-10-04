@@ -1,0 +1,791 @@
+/*
+ Theme Name: Garlo
+ Theme URI: https://themewar.com/html/garlo/
+ Author: ThemeWar
+ Author URI: https://themeforest.net/user/themewar/portfolio
+ Description: Garlo - Beauty Cosmetics Shop HTML Template
+ Version: 1.0
+ License:
+ License URI: 
+*/
+
+/*==================================
+    [Table of contents]
+===================================
+    01. max-width: 1699px
+    02. min-width: 1366px & max-width: 1599px
+    03. min-width: 1366px & max-width: 1399px
+    04. min-width: 1200px & max-width: 1399px
+    05. max-width: 1365px
+    06. min-width: 1200px & max-width: 1365px
+    07. min-width: 992px & max-width: 1199px
+    08. max-width: 1199px
+    09. min-width: 768px & max-width: 991px
+    10. max-width: 991px
+    11. max-width: 767px
+    12. max-width: 575px
+    13. min-width: 320px & max-width: 410px
+    14. min-width: 320px & max-width: 355px
+*/
+
+
+
+/*----------------========----------------
+/  01. max-width: 1699px
+/----------------========----------------*/
+@media (max-width: 1699px){
+   
+}
+
+
+
+/*----------------========----------------
+/  02. min-width: 1366px & max-width: 1599px
+/----------------========----------------*/
+@media (min-width: 1366px) and (max-width: 1599px){
+    .videoBanner{
+        height: 100%;
+    }
+    .videoBanner img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .shopCarousel.owl-carousel .owl-nav button.owl-prev {
+        left: -75px;
+    }
+    .shopCarousel.owl-carousel .owl-nav button.owl-next {
+        right: -75px;
+    }
+}
+
+
+
+/*----------------========----------------
+/  03. min-width: 1366px & max-width: 1399px
+/----------------========----------------*/
+@media (min-width: 1366px) and (max-width: 1399px){
+   
+}
+
+
+/*----------------========----------------
+/  04. min-width: 1200px & max-width: 1399px
+/----------------========----------------*/
+@media (min-width: 1200px) and (max-width: 1399px){
+    .productCarousel.owl-carousel .owl-nav{
+        width: 100%;
+    }
+    .videoBanner{
+        height: 100%;
+    }
+    .videoBanner img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .rev_slider .tp-leftarrow.tparrows{
+        left: -60px !important;
+    }
+    .rev_slider .tp-rightarrow.tparrows{
+        left: calc(100% + 60px) !important;
+    }
+    .productListTabMenuArea{
+        padding: 0;
+    }
+    .productListTabMenuArea ul li button.nav-link{
+        font-size: 30px;
+    }
+    /*-- Popup Menu --*/
+    .menu_popup ul li ul.sub-menu{
+        width: 240px;
+    }
+    .menu_popup ul li:nth-last-child(1),
+    .menu_popup ul li:nth-last-child(2){
+        position: static;
+    }
+    .menu_popup ul li:nth-last-child(1) .sub-menu,
+    .menu_popup ul li:nth-last-child(2) .sub-menu{
+        top: auto;
+        bottom: 0;
+    }
+    .menu_popup ul li a{
+        font-size: 26px;
+    }
+    .menu_popup ul li{
+        margin: 20px auto;
+    }
+    /*-- Popup Menu --*/
+}
+
+
+/*----------------========----------------
+/  05. max-width: 1365px
+/----------------========----------------*/
+@media (max-width: 1366px){
+    .discountSlider.imagePoSlider.owl-carousel .owl-nav button.owl-next{
+        right: 20px;
+    }
+    .discountSlider.imagePoSlider.owl-carousel .owl-nav button.owl-prev{
+        left: 20px;
+    }
+    
+}
+
+
+/*----------------========----------------
+/  06. min-width: 1200px & max-width: 1365px
+/----------------========----------------*/
+@media (min-width: 1200px) and (max-width: 1365px){
+    .discountSlider.owl-carousel .owl-nav button.owl-prev{
+        left: -10px;
+    }
+    .discountSlider.owl-carousel .owl-nav button.owl-next{
+        right: -10px;
+    }
+
+    /* Home 5 */
+    .shopCarousel.owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+    .shopCarousel.owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+    /*-- Popup Menu --*/
+    .menu_popup ul li ul.sub-menu{
+        width: 220px;
+    }
+    /*-- Popup Menu --*/
+}
+
+
+/*----------------========----------------
+/  07. min-width: 992px & max-width: 1199px
+/----------------========----------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .ci01Thumb{
+        width: 100%;
+    }
+    .testWrapper{
+        padding-right: 100px;
+    }
+    .contactInfo {
+      margin: 0 0 0 -30px;
+    }
+    .prsContent h2{
+        font-size: 55px;
+    }
+    .slider01 .tp-parallax-wrap{
+        margin-left: 100px;
+    }
+    .bgLayerColor{
+        margin-top: 35px;
+    }
+    /*-- Popup Menu --*/
+    .menu_popup ul li ul.sub-menu{
+        width: 240px;
+    }
+    /*-- Popup Menu --*/
+
+}
+
+
+/*----------------========----------------
+/  08. max-width: 1199px
+/----------------========----------------*/
+@media (max-width: 1199px){
+    .accessNavigation{
+        margin: 0 0 0 20px;
+    }
+    /*-- Mobile Menu --*/
+    .menu_btn{
+        height: 45px;
+        width: 45px;
+        border-radius: 3px;
+        background: var(--primary-color);
+        color: #FFF;
+        line-height: 44px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 2px;
+    }
+    .menu_btn i{
+        line-height: inherit;
+    }
+    .menu_btn:hover, .menu_btn:focus, .menu_btn.active{
+        color: #FFF;
+    }
+    .menu_btn.active .fa-bars:before{
+        content: "\f00d";
+    }
+    .mainMenu{
+        z-index: 99;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background: #fff;
+        box-shadow: -2px 4px 7px 0px rgba(226, 225, 225, .79);
+        display: none;
+        max-height: calc(100vh - 150px);
+        overflow-y: scroll;
+    }
+    .mainMenu ul{
+        display: block;
+    }
+    .mainMenu ul li{
+        transform: none;
+        transition: none;
+        padding: 0;
+        margin: 0;
+        position: inherit;
+        display: block;
+        width: 100%;
+    }
+    .mainMenu ul li.menu-item-has-children > a::after{
+        font-size: 13px;
+        float: right;
+    }
+    .mainMenu > ul > li > a{
+        width: 100%;
+        color: #111c16;
+        padding: 10px 20px 9px;
+        border-top: 1px solid rgba(0, 0, 0, .05);
+    }
+    .mainMenu > ul > li:hover > a,
+    .mainMenu > ul > li.current-menu-item > a{
+        color: var(--theme-color);
+    }
+    .mainMenu ul li a::before,
+    .mainMenu ul li.current-menu-item > a::before{
+        display: none;
+    }
+    .mainMenu ul li .sub-menu li .sub-menu,
+    .mainMenu ul li .sub-menu{
+        min-width: 100%;
+        border: none;
+        padding: 0;
+        z-index: 5;
+        position: relative;
+        width: 100%;
+        opacity: 1;
+        margin: 0;
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        visibility: visible;
+        pointer-events: inherit;
+        top: 0;
+        left: 0;
+        display: none;
+        transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+        -o-transition: none;
+        -ms-transition: none;
+
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+    }
+    .mainMenu ul li .sub-menu li:hover .sub-menu,
+    .mainMenu ul li:hover .sub-menu{
+        top: 0;
+        visibility: visible;
+        opacity: 1;
+        left: auto;
+        pointer-events: inherit;
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+        -o-transition: none;
+        -ms-transition: none;
+    }
+    .mainMenu ul li .sub-menu li {
+        display: block;
+        padding: 0;
+        margin: 0;
+        -webkit-transition: none;
+        transition: none;
+        opacity: 1;
+        visibility: visible;
+        transition: none;
+        transform: none;
+    }
+    .mainMenu ul li .sub-menu li a{
+        padding: 9px 25px 10px;
+        padding-left: 40px;
+        width: 100%;
+        display: block;
+        border-top: 1px solid rgba(0, 0, 0, .05);
+    }
+    .mainMenu > ul > li ul li.menu-item-has-children > a::after{
+        content: '\f107';
+    }
+    .mainMenu ul li .sub-menu ul li a{
+        padding-left: 55px;
+    }
+    .mainMenu ul li:nth-last-child(1) .sub-menu li .sub-menu, .mainMenu ul li:nth-last-child(2) .sub-menu li .sub-menu {
+      left: 0;
+      right: auto;
+    }
+    .headerItems{
+        margin: 0 0 0 20px;
+    }
+    .header03 .headerItems{
+        margin-top: 0;
+    }
+    .header03 .logo{
+        margin-top: 0;
+    }
+    header.fixedHeader.header03 .headerInner{
+        padding: 0 15px;
+    }
+    /*-- Mobile Menu --*/
+    .ctaContent{
+        margin: 0 0 0 15px;
+    }
+    .discountSlider.owl-carousel .owl-nav button.owl-prev{
+        left: -15px;
+    }
+    .discountSlider.owl-carousel .owl-nav button.owl-next{
+        right: -15px;
+    }
+    .ctaProD01{
+        margin: 60px 0 0;
+    }
+    .productTabRow .rightCol,
+    .productTabRow .leftCol {
+      width: 100%;
+    }
+    .productListTabMenuArea{
+        padding: 0 0 50px 15px;
+    }
+    .productListTabMenuArea ul{
+        margin-bottom: 30px;
+    }
+    .productCarousel.owl-carousel .owl-nav{
+        width: 100%;
+    }
+    .noPaddingRight {
+      padding-right: calc(var(--bs-gutter-x) * 0.5);
+    }
+    .prsContent{
+        padding-left: 0;
+    }
+    .rev_slider .tp-leftarrow.tparrows{
+        left: -70px !important;
+    }
+    .rev_slider .tp-rightarrow.tparrows{
+        left: calc(100% + 70px) !important;
+    }
+    .accessNavigation .anWishlist,
+    .accessNavigation .anUsers,
+    .accessNavigation .anSearch,
+    .accessNavigation .anCarts{
+        margin-top: 40px;
+    }
+    /*-- Popup Menu --*/
+    .menu_popup ul li .sub-menu li:hover .sub-menu,
+    .menu_popup ul li .sub-menu li .sub-menu,
+    .menu_popup ul li:hover .sub-menu,
+    .menu_popup ul li ul.sub-menu{
+        display: none;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        pointer-events: inherit;
+        top: 15px;
+        width: 300px;
+        text-align: center;
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform-origin: none;
+        -ms-transform-origin: none;
+        transform-origin: none;
+        -ms-transition: none;
+        transition: none;
+        color: inherit;
+        font-size: inherit;
+    }
+    .menu_popup ul li .sub-menu li:hover .sub-menu,
+    .menu_popup ul li .sub-menu li .sub-menu{
+        width: 260px;
+        box-shadow: none;
+        margin-bottom: 20px;
+        padding: 15px 0;
+        background: #222;
+    }
+    .menu_popup ul{
+        max-height: calc(100vh - 140px);
+        overflow-y: auto;
+    }
+    /*-- Popup Menu --*/
+     /* Home 5 */
+    .proCallThumb img {
+        width: 100%;
+    }
+    .feaProLook img {
+        width: 100%;
+    }
+    .poLookDetails {
+        width: 100%;
+    }
+    .sbThumb img {
+        margin-bottom: 25px;
+    }
+    .socialShare {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        margin-bottom: 7px;
+    }
+    .socialShare a{
+        margin-right: 15px;
+    }
+}
+
+
+/*----------------========----------------
+/  09. min-width: 768px & max-width: 991px
+/----------------========----------------*/
+@media (min-width: 768px) and (max-width: 991px){
+    .locationIndicator{
+        margin: 0 0 0 12px;
+        padding: 20px 0 15px 10px;
+        font-size: 14px;
+    }
+    .currencySwitcherWrap .nice-select{
+        font-size: 14px;
+    }
+    .topBarNavigations{
+        margin-right: -5px;
+    }
+    .slider01 .tp-parallax-wrap{
+        margin-left: 100px;
+    }
+}
+
+
+/*----------------========----------------
+/  10. max-width: 991px
+/----------------========----------------*/
+@media (max-width: 991px){
+    .iconBox01{
+        margin: 0 0 40px;
+    }
+    .prsContent h2{
+        font-size: 48px;
+    }
+    .prsContent p br{
+        display: none;
+    }
+    .testWrapper{
+        padding-right: 0;
+    }
+    .testiItem01{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .tstRatings{
+        right: 20px;
+    }
+    .categoryItem01{
+        margin-bottom: 30px;
+    }
+    /* Home 5 */
+    .iconBox02{
+        margin-bottom: 40px;
+    }
+    .iconBox02.iBox04 {
+        margin-left: 0;
+    }
+    .iconBox02.iBox02 {
+        margin-left: 0;
+    }
+    .lookItem {
+        margin-bottom: 24px;
+    }
+    .lookItem img {
+        width: 100%;
+    }
+    /* Single blog */
+    .sidebar {
+        margin-left: 0;
+    }
+    .cateWidget {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .wiCatSingle img {
+        width: 100%;
+    }
+    .shopWidget img {
+        width: 100%;
+    }
+    .shopWidget .shopWidText h2 {
+        font-size: 50px;
+        line-height: 58px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: calc(50% - 164px);
+        transform: translateY(-50%);
+    }
+    .blogPagination {
+        padding: 56px 0 35px;
+    }
+    .glyWidget {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+/*----------------========----------------
+/  11. max-width: 767px
+/----------------========----------------*/
+@media (max-width: 767px){
+    /*-- Popup Menu --*/
+    .menu_popup ul li .sub-menu li:hover 
+    .sub-menu, .menu_popup ul li .sub-menu li .sub-menu, 
+    .menu_popup ul li:hover .sub-menu, 
+    .menu_popup ul li ul.sub-menu{
+        width: 100%;
+    }
+    .close-popup{
+        right: 15px;
+        top: 15px;
+    }
+    .menu_popup > ul > li{
+        margin: 20px auto;
+    }
+    .menu_popup ul li a{
+        font-size: 20px;
+    }
+    .menu_popup ul li.menu-item-has-children > a:before {
+        top: 5px;
+        font-size: 14px;
+    }
+    /*-- Popup Menu --*/
+    .topBarSocial{
+        justify-content: center;
+    }
+    .topBarInfo{
+        display: none;
+    }
+    .topBarNavigations{
+        justify-content: center;
+        margin-top: -5px;
+    }
+    .secTitle{
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .ctaContent{
+        max-width: 100%;
+        padding: 60px 20px;
+        margin: 0 15px;
+    }
+    .ctaContent h2{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .discountSlider.owl-carousel .owl-nav button.owl-prev{
+        left: -10px;
+        width: 50px;
+        height: 50px;
+        line-height: 54px;
+        font-size: 20px;
+    }
+    .discountSlider.owl-carousel .owl-nav button.owl-next{
+        right: -10px;
+        width: 50px;
+        height: 50px;
+        line-height: 54px;
+        font-size: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        width: 50px;
+        height: 50px;
+        line-height: 54px;
+        font-size: 20px;
+    }
+    .prsContent {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .prsContent h2{
+        font-size: 32px;
+    }
+    .productCarousel.owl-carousel .owl-nav{
+        position: relative;
+        top: 0;
+        text-align: center;
+        margin: 30px 0 0;
+    }
+    .productCarouselWrap{
+        padding: 0;
+    }
+    /* Single Blog */
+    .blogDetailsContentWrp .sbTitle {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .authorBox .authorBoxImg {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .authorBox {
+        position: relative;
+        padding: 50px  20px 25px 30px;
+    }
+    .authorBox h3 {
+        margin: 20px 0 14px;
+    }
+    .pabSocial a {
+        margin-right: 35px;
+    }
+    .singleComment .comThumb {
+        position: relative;
+        margin: 0 0 20px;
+    }
+    .singleComment {
+        padding: 8px 0 40px 0;
+    }
+    .commentList .children {
+        padding: 0 0 0 0;
+    }
+    .cateWidget {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .absocial {
+        text-align: left;
+        margin: 25px 0 0;
+    }
+    .postNavDiv {
+        display: none;
+    }
+    .blogSocialTag {
+        padding: 15px 0 25px;
+        margin: 32px 0 47px;
+    }
+    .BlogDetailsSec {
+        margin: 80px 0 80px;
+    }
+    .postNavicationRow {
+        margin-bottom: 60px;
+    }
+    .blogDetailsContent h3.bSubTitle {
+        font-size: 26px;
+        line-height: 35px;
+        margin: 14px 0 3px;
+    }
+}
+
+
+/*----------------========----------------
+/  12. max-width: 575px
+/----------------========----------------*/
+@media (max-width: 575px){
+.blogDetailsContentWrp .sbTitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .BlogDetailsSec {
+        margin: 50px 0 50px;
+    }
+    .subcribeForm{
+        text-align: center;
+    }
+    .subcribeForm button {
+        position: relative;
+        top: 20px;
+        border-radius: 4px;
+    }
+    .testiItem01 {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .tstRatings{
+        right: 15px;
+        bottom: 35px;
+    }
+    .ctaProD01 .secTitle{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .ciDetails{
+        bottom: 25px;
+        padding: 0 20px;
+    }
+    .ciDetails h3{
+        font-size: 26px;
+    }
+    .accessNavigation .anCarts{
+        margin-left: 10px;
+    }
+    .accessNavigation{
+        margin: 0 0 0 12px;
+    }
+}
+
+
+/*----------------========----------------
+/  13. min-width: 320px & max-width: 410px
+/----------------========----------------*/
+@media (max-width: 410px){
+    .accessNavigation .anUsers,
+    .accessNavigation .anWishlist{
+        display: none;
+    }
+    .blogAuthorMeta {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 25px;
+    }
+    .blogAuthor.blogComment {
+        margin-top: 20px;
+    }
+    h2.sbTitle br{
+        display: none;
+    }
+    .comAuthorName {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .comTimeReport {
+        margin: 5px 0 0;
+    }
+    .blogPagination a {
+        margin-right: 0;
+    }
+    .blogPagination {
+        padding: 30px 0 35px;
+    }
+    .glyWidget {
+        grid-template-columns: repeat(2,1fr);
+    }
+    h3.commentHeading span::after {
+        width: 40px;
+        right: -35px;
+    }
+}
+
+
+/*----------------========----------------
+/  14. min-width: 320px & max-width: 355px
+/----------------========----------------*/
+@media (max-width: 355px){
+    
+}

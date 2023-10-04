@@ -1,0 +1,770 @@
+/*
+ Theme Name: Garlo
+ Theme URI: https://themewar.com/html/garlo/
+ Author: ThemeWar
+ Author URI: https://themeforest.net/user/themewar/portfolio
+ Description: Garlo - Beauty Cosmetics Shop HTML Template
+ Version: 1.0
+ License:
+ License URI: 
+*/
+
+
+.categorySection{
+    padding: 150px 0 150px;
+}
+.categorySection .secTitle{
+    margin: 0 0 51px;
+}
+.collectionSection{
+    position: relative;
+}
+.collectionSection .leftCol{
+    width: 54.2%;
+}
+.collectionSection .rightCol{
+    width: 45.8%;
+}
+.collectionCarouselWrap{
+    padding: 0 0 0 13px;
+}
+.ctaSection{
+    background: url(../images/bg/2.jpg) no-repeat left top / cover;
+    border-radius: 4px 0 0 4px;
+    padding: 171px 150px 150px 98px;
+    min-height: 100%;
+    margin: 0 0 0 11px;
+}
+.ctaSection .subTitle{
+    margin: 0 0 18px;
+}
+.ctaSection .secTitle{
+    color: #FFF;
+    font-size: 55px;
+    line-height: 64px;
+    letter-spacing: 0;
+    margin: 0 0 42px;
+}
+.productSection01{
+    position: relative;
+    padding: 150px 0 150px;
+}
+.productSection01 .secTitle{
+    margin-bottom: 37px;
+}
+.ctaSection01{
+    position: relative;
+    background: url(../images/bg/3.png) no-repeat center center / cover #f5fcff;
+    padding: 109px 0 80px;
+}
+.prThumb01{
+    position: relative;
+    margin: 0 0 0 -30px;
+}
+.prThumb01 img{
+    max-width: 100%;
+    height: auto;
+}
+.testimonialSection01{
+    position: relative;
+    z-index: 2;
+    padding: 150px 0 157px;
+}
+.tscon{
+    position: relative;
+    padding: 36px 0 0;
+}
+.tscon img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.tscon .secTitle{
+    margin-bottom: 21px;
+}
+.psDiscountSection{
+    position: relative;
+}
+.iconBoxSection01{
+    position: relative;
+    background: url(../images/bg/4.png) no-repeat top center / cover;
+    padding: 498px 0 94px;
+    margin-top: -415px;
+}
+.ctaSection02{
+    position: relative;
+    padding: 150px 0 133px;
+}
+.ctaThumb01{
+    position: relative;
+    text-align: center;
+}
+.ctaThumb01 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.ctaCon01{
+    position: relative;
+    padding: 30px 0 0 20px;
+}
+.ctaCon01 .subTitle{
+    font-size: 15px;
+    letter-spacing: .60px;
+}
+.ctaCon01 .secTitle{
+    color: var(--heading-color);
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+.ctaCon01 p{
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.brdivider{
+    border-bottom: 1px solid #f0f0f0;
+    margin: 20px 0 78px;
+} 
+.ctaCon02{
+    padding: 67px 0 0 44px;
+}
+.cThumb02{
+    margin-left: 37px;
+}
+.videoSection01{
+    position: relative;
+    overflow: hidden;
+}
+.videoSection01 .col-lg-5{
+    width: 46.877%;
+}
+.videoSection01 .col-lg-7{
+    width: 53.123%;
+}
+.ctaWrapper{
+    position: relative;
+    padding: 125px 0 122px;
+    background: url(../images/home01/5.jpg) no-repeat top right / cover;
+}
+.clientSection01{
+    position: relative;
+    padding: 148px 0 120px;
+}
+.clientSection01 .brdivider{
+    border-color: #e4e4e4;
+    margin: 107px 0 0;
+}
+.blogSection01{
+    position: relative;
+    padding: 30px 0 120px;
+}
+.blogSection01 .secTitle{
+    margin-bottom: 28px;
+}
+.blogSection01 .brdivider{
+    border-color: #e4e4e4;
+    margin: 68px 0 0;
+}
+.instagraSection01{
+    position: relative;
+    padding: 32px 0 0;
+    margin-bottom: -138px;
+}
+.instagraSection01 .subTitle{
+    text-transform: inherit;
+}
+.instagraSection01 .secTitle{
+    margin-bottom: 40px;
+}
+.footer01{
+    position: relative;
+    padding: 215px 0 0;
+    background: url(../images/bg/1.jpg) no-repeat center center / cover;
+}
+.pdLeft16{
+    padding-left: 16px;
+}
+.pdLeft36{
+    padding-left: 36px;
+}
+.contactInfo{
+    margin: 0 -45px 0 -6px;
+}
+.fldivider{
+    border-top: 1px solid #2f2f2f;
+    margin-top: 63px;
+}
+.Copyright{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0 15px;
+}
+.Copyright p {
+    font-size: 17px;
+    color: #f2f2f2;
+    font-family: var(--secondary-font);
+    line-height: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+.Copyright img {
+    height: 24px;
+    width: auto;
+}
+
+/* Gouranga */
+.clientSection02 .subTitle {
+    margin: 0 0 16px;
+}
+
+.productSection02 .secTitle {
+    margin-bottom: 37px;
+}
+
+.productSection02 .subTitle {
+    margin: 0px 0 5px;
+}
+
+.productListTabMenuArea.productListTabMenuArea02 {
+    padding: 0;
+    text-align: right;
+    margin-top: 47px;
+}
+
+.productListTabMenuArea.productListTabMenuArea02 ul li button.nav-link:hover,
+.productListTabMenuArea ul li button.nav-link.active {
+    padding: 0 0 0 15px;
+}
+
+.productListTabMenuArea.productListTabMenuArea02 ul li button.nav-link::before {
+    height: 23px;
+    width: 4px;
+    top: 4px;
+    left: 6px;
+}
+
+.shopGallery01 .secTitle {
+    padding: 0px 0px 58px;
+}
+
+.iconBoxSection02 .iconBox01 {
+    position: relative;
+    padding: 0;
+    text-align: center;
+}
+
+.iconBoxSection02 .iconBox01 .ibMeta {
+    font-size: 80px;
+    color: #fff;
+    line-height: 80px;
+    position: inherit;
+}
+
+.lookBooksSec .secTitle {
+    margin: 0 0 38px;
+}
+
+.lookCollection .subTitle {
+    color: #1f1f1f;
+    font-size: 15px;
+}
+
+.lookCollection .secTitle {
+    margin: 6px 0 21px;
+}
+
+.lookContent .pi01Details h3 {
+    font-size: 26px;
+}
+
+.lookProductRat h6 {
+    margin-bottom: 0;
+}
+
+.lookContent .pi01Details h3 {
+    margin-bottom: 7px;
+}
+
+.lookContent .pi01Details .pi01Price {
+    margin-top: 10px;
+}
+
+.lookBooksSec .col-md-5 {
+    padding-right: 23px;
+}
+
+.garloUnderBtn {
+    margin-top: 62px;
+}
+
+.faceOil-content .ctaContent .subTitle {
+    margin-bottom: 10px;
+}
+
+.faceOil-content .ctaContent h2 {
+    letter-spacing: 0;
+    margin-bottom: 9px;
+}
+
+.faceOil-content .ctaContent p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.faceOil-content .listItem li {
+    font-weight: 700;
+    font-size: 16.61px;
+    line-height: 1.1;
+    letter-spacing: .33px;
+    margin: 0 0 17px;
+    position: relative;
+    z-index: 1;
+}
+
+.faceOil-content .listItem li i {
+    margin-right: 10px;
+}
+
+.faceOil-content .listItem li::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 5px;
+    left: -4px;
+    background: #fff3eb;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.faceOil-content .listItem {
+    margin: 0 0 13px;
+}
+
+.oilProduct .ibMeta {
+    width: 84px;
+    height: 84px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oilProduct .iconBox01 {
+    position: relative;
+    padding: 5px 0 0 100px;
+    margin: 0 0 37px;
+}
+
+.oilProduct .iconBox01 .ibMeta img {
+    width: 42px;
+    height: auto;
+}
+
+.oilProduct .iconBox01 h3 {
+    color: var(--heading-color);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+/* Home 5 */
+.iconBox02.iBox02 {
+    margin-left: -13px;
+}
+
+.iconBox02.iBox04 {
+    margin-left: -16px;
+}
+
+.featurePro01 .secTitle {
+    margin-bottom: 36px;
+}
+
+.poLookDetails .subTitle {
+    margin-bottom: 14px;
+}
+
+.poLookDetails .secTitle {
+    font-size: 45px;
+    line-height: 52px;
+    margin-bottom: 13px;
+}
+
+.poLookDetails .secTitle span {
+    font-weight: 500;
+}
+
+.poLookDetails p {
+    margin-bottom: 29px;
+}
+
+.poLookDetails .garloBtn01 {
+    padding: 0 27px;
+}
+
+.beautyDetails .subTitle {
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+.beautyDetails .secTitle {
+    font-size: 57px;
+    line-height: 70px;
+    color: #fff;
+    margin-bottom: 29px;
+}
+
+.offerDet {}
+
+.bLookDet .subTitle {
+    font-size: 15px;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+}
+
+.bLookDet .secTitle {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.bLookDet p {
+    margin-bottom: 31px;
+    line-height: 28px;
+}
+
+.bLookDet .garloBtn01 {
+    font-size: 13px;
+    height: 49px;
+    line-height: 49px;
+    color: #fff;
+}
+
+.beautyOffer01 .col-lg-7 {
+    width: 62%;
+}
+
+.beautyOffer01 .col-lg-5 {
+    width: 38%;
+}
+
+.callToAction01 {
+    position: relative;
+    padding-bottom: 134px;
+}
+.callToAction01 .col-lg-5{
+    width: 43.2% ;
+}
+.callToAction01 .col-lg-7{
+    width: 56.8%;
+}
+
+.prsContent.iPoContent h2 {
+    line-height: 66px;
+    margin-bottom: 11px;
+}
+
+.prsContent.iPoContent>h5 {
+    margin: 0 0 3px;
+}
+
+.prsContent.iPoContent p {
+    margin-bottom: 25px;
+}
+
+.prsContent.iPoContent {
+    padding: 147px 5px 0 55px;
+}
+
+.callAcRight {
+    padding-left: 39px;
+}
+
+.callRdet .secTitle {
+    font-size: 55px;
+    line-height: 64px;
+    margin-bottom: 13px;
+}
+
+.callRdet p {
+    margin-bottom: 40px;
+    padding-right: 90px;
+    line-height: 28px;
+}
+
+.shopCategory01 {
+    padding: 0 0 150px;
+}
+
+.shopCategory01 .secTitle {
+    margin-bottom: 36px;
+}
+
+.shopCategory01 .subTitle {
+    margin-bottom: 6px;
+}
+
+.shopItem01 .proCollectionItem {
+    margin: 0;
+}
+
+.shopItem01 .proCallDetails {
+    padding: 34px 37px 27px;
+    background: #fcfcfc;
+}
+
+.shopItem01 .proCollectionItem p {
+    font-size: 13px;
+}
+
+.shopItem01 .proCollectionItem h3 {
+    font-size: 20px;
+}
+
+.shopCarousel.owl-carousel .owl-nav button.owl-next,
+.shopCarousel.owl-carousel .owl-nav button.owl-prev {
+    background: #f8f8f8;
+    position: absolute;
+    top: 150px;
+    bottom: auto;
+}
+
+.shopCarousel.owl-carousel .owl-nav button.owl-prev {
+    left: -115px;
+}
+
+.shopCarousel.owl-carousel .owl-nav button.owl-next {
+    right: -120px;
+}
+
+/* Visit Shop */
+.visitShopsec01 {
+    padding-bottom: 150px;
+}
+
+.visitShopsec01 .subTitle {
+    color: var(--heading-color);
+    margin-bottom: 3px;
+}
+
+.visitShopsec01 .secTitle {
+    margin-bottom: 16px;
+}
+.visitShopsec01 .noPaddingRight{
+    padding-right: 0;
+}
+
+.visitDet p {
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+
+.imagePoSliderSec {
+    padding-bottom: 149px;
+}
+
+.discountSlider.imagePoSlider .row {
+    position: inherit;
+}
+
+.imagePoSlider.discountSlider .container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.discountSlider.imagePoSlider .prsItem img {
+    width: 100%;
+    height: 730px;
+    border-radius: 0;
+}
+
+.discountSlider.imagePoSlider.owl-carousel .owl-nav button.owl-next {
+    right: 120px;
+}
+
+.discountSlider.imagePoSlider.owl-carousel .owl-nav button.owl-prev {
+    left: 120px;
+}
+
+.countDownItem02 .col-lg-3 {
+    width: 22%;
+}
+
+.countDownItem02 .col-lg-5 {
+    flex: 0 0 auto;
+    width: 39%;
+}
+
+.countDownItem02 .col-lg-4 {
+    width: 38%;
+}
+
+/* Blog Single */
+.pageBanner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 396px;
+    position: relative;
+    padding: 153px 0 0;
+}
+.bannerTitle{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #151515;
+    margin-bottom: 21px;
+}
+.blogSocial{
+    text-align: right;
+}
+.blogSocial .absocial a{
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 14px;
+    background: #f8f6f4;
+    color: var(--heading-color);
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+/* Comment Box */
+.postCommentFormBox .commentHeading{
+    margin: 75px 0 36px;
+}
+
+
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+    .ctaSection {
+        padding: 85px 30px 60px 40px;
+    }
+    .ctaSection .secTitle {
+       font-size: 50px;
+       line-height: 58px;
+       margin: 0 0 30px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+    .ctaSection{
+        padding: 60px 30px 50px 40px;
+    }
+    .ctaSection .secTitle {
+       font-size: 45px;
+       line-height: 52px;
+       margin: 0 0 30px;
+    }
+    .slider01 .tp-parallax-wrap{
+        margin-left: 100px;
+    }
+    .prThumb01{
+        margin-left: 0;
+    }
+    .contactInfo{
+        margin-right: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .footer01 .absocial a{
+        width: 45px;
+        height: 45px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 1199px){
+    .pdLeft36, .pdLeft16{
+        padding-left: 0;
+    }
+    .contactInfo{
+        margin: 0;
+    }
+    .videoSection01 .col-lg-7,
+    .videoSection01 .col-lg-5{
+      width: 100%;
+    }
+    .ctaCon01, .ctaCon02{
+        padding: 0;
+    }
+    .ctaCon01 .secTitle{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .cThumb02 {
+      margin-left: 0;
+    }
+    .prThumb01{
+        margin: 0;
+        text-align: center;
+    }
+    .collectionSection .rightCol,
+    .collectionSection .leftCol {
+      width: 100%;
+    }
+    .collectionCarouselWrap{
+        padding: 0;
+    }
+    .ctaSection{
+        margin: 30px 0 0;
+        border-radius: 4px;
+        padding: 150px 90px 120px;
+    }
+
+}
+
+@media (max-width: 991px){
+    .footer01 .aboutWidget,
+    .footer01 .widget{
+        margin-bottom: 45px;
+    }
+    .tscon img{
+        max-width: 55%;
+    }
+}
+
+@media (max-width: 767px){
+    .Copyright{
+        display: block;
+        text-align: center;
+    }
+    .instagraSection01 .secTitle{
+        font-size: 32px;
+    }
+    .ctaCon01 .secTitle{
+        font-size: 40px;
+    }
+    .ctaThumb01{
+        margin: 0 0 30px;
+    }
+    .cThumb02{
+        margin: 40px 0 0;
+    }
+    .tscon img{
+        position: relative;
+        max-width: 100%;
+        margin: 0 0 30px;
+    }
+    .ctaSection{
+        padding: 100px 25px 70px;
+    }
+    .ctaSection .secTitle{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

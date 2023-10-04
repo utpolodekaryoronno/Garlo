@@ -1,0 +1,595 @@
+/*
+ Theme Name: Garlo
+ Theme URI: https://themewar.com/html/garlo/
+ Author: ThemeWar
+ Author URI: https://themeforest.net/user/themewar/portfolio
+ Description: Garlo - Beauty Cosmetics Shop HTML Template
+ Version: 1.0
+ License:
+ License URI: 
+*/
+
+/*==================================
+    [Table of contents]
+===================================
+    01. Theme Fonts
+    02. Basic Typography
+    03. Custom Helper Class
+    04. Links & Buttons
+    05. Section Settings
+*/
+
+/*-----------------------------------------
+/  01. Theme Fonts
+/-----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*-----------------------------------------
+/  02. Root Variables
+/-----------------------------------------*/
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Urbanist', sans-serif;
+    --primary-color: #ff6a00;
+
+    --body-color: #656565;
+    --body-font-size: 18px;
+    --body-line-height: 32px;
+    --body-font-weight: 400;
+    --body-letter-spacing: 0;
+
+    --heading-color: #000000;
+    --heading-font-weight: 700;
+    --heading-line-height: 1.1;
+
+    --dark-color: #121212;
+    --dark-color-2: #232121;
+    --dark-color-3: #242035;
+}
+
+/*-----------------------------------------
+/  03. Basic Typography
+/-----------------------------------------*/
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--primary-font);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    line-height: var(--body-line-height);
+    color: var(--body-color);
+    letter-spacing: var(--body-letter-spacing);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--secondary-font);
+    color: var(--heading-color);
+    font-weight: var(--heading-font-weight);
+    line-height: var(--heading-line-height);
+    margin: 0 0 15px;
+}
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    transition: all ease 350ms;
+    -moz-transition: all ease 350ms;
+    -webkit-transition: all ease 350ms;
+}
+a:hover{
+    color: var(--heading-color);
+    text-decoration: none;
+}
+button, input[type="submit"]{
+    font-family: var(--secondary-font);
+    transition: all ease 350ms;
+    -moz-transition: all ease 350ms;
+    -webkit-transition: all ease 350ms;
+}
+a:focus, button:focus, input[type="submit"]:focus{
+    outline: 0;
+    text-decoration: none;
+}
+.Urbanist{
+    font-family: var(--secondary-font);
+}
+
+/*-----------------------------------------
+/  04. Section Settings
+/-----------------------------------------*/
+.subTitle{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 500;
+    letter-spacing: .56px;
+    line-height: 1;
+    margin: 0 0 7px;
+}
+.secTitle{
+    font-size: 50px;
+    line-height: 63px;
+    color: var(--dark-color-2);
+    margin: 0;
+}
+.noPaddingRight{
+    padding-right: 0;
+}
+.noPaddingLeft{
+    padding-left: 0;
+}
+.noPadding{
+    padding: 0;
+}
+.container-left{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/*-----------------------------------------
+/  05. Animation Settings
+/-----------------------------------------*/
+.overLayAnim01::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,.45);
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -khtml-border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.overLayAnim01:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+.overLayAnim02::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.7) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.7) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.overLayAnim02:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+.overLayAnim03::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.overLayAnim03:hover::before {
+    -webkit-animation: shine2 .75s;
+    animation: shine2 .75s;
+}
+@-webkit-keyframes shine2 {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes shine2 {
+    100% {
+        left: 125%;
+    }
+}
+@-webkit-keyframes zoom-hover {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+.overlay-anim::before {
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 0;
+    content: "";
+    left: 50%;
+    position: absolute;
+    right: 51%;
+    top: 0;
+    opacity: 1;
+    pointer-events: none;
+    transition: all 500ms linear;
+}
+.overlay-anim:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 500ms linear;
+}
+.overlay-anim::after {
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 50%;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 1;
+    pointer-events: none;
+    transition: all 600ms linear;
+}
+.overlay-anim:hover::after {
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 600ms linear;
+}
+@keyframes zoomBig {
+    0% {
+      transform: translate(-50%, -50%) scale(0.5);
+      opacity: 1;
+      border-width: 3px;
+    }
+    40% {
+      opacity: .5;
+      border-width: 2px;
+    }
+    65% {
+      border-width: 1px;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+      border-width: 1px;
+    }
+}
+@keyframes blinker {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.03, 1.03);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+@keyframes shadows {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, .15), 0 0 0 30px rgba(255, 255, 255, .15), 0 0 0 50px rgba(255, 255, 255, .15);
+    }
+    100% {
+        box-shadow: 0 0 0 30px rgba(255, 255, 255, .15), 0 0 0 50px rgba(255, 255, 255, .15), 0 0 0 70px rgba(255, 255, 255, 0);
+    }
+}
+
+/*-----------------------------------------
+/  06. Link & Buttons
+/-----------------------------------------*/
+.garloLink{
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -.36px;
+    color: var(--primary-color);
+    display: inline-flex;
+    align-items: center;
+}
+.garloLink i{
+    font-size: 21px;
+    position: relative;
+    top: 1px;
+    padding: 0 0 0 9px;
+    transition: all ease 350ms;
+    -moz-transition: all ease 350ms;
+    -webkit-transition: all ease 350ms;
+
+    transform: translateX(0);
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+.garloLink:hover i{
+    transform: translateX(6px);
+    -moz-transform: translateX(6px);
+    -webkit-transform: translateX(6px);
+}
+.garloLink02{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: var(--dark-color-3);
+    display: inline-flex;
+    align-items: center;
+}
+.garloLink02 i{
+    font-size: 21px;
+    position: relative;
+    color: var(--primary-color);
+    top: 2px;
+    padding: 0 0 0 10px;
+    transition: all ease 350ms;
+    -moz-transition: all ease 350ms;
+    -webkit-transition: all ease 350ms;
+
+    transform: translateX(0);
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+.garloLink02:hover i{
+    color: var(--dark-color-3);
+    transform: translateX(6px);
+    -moz-transform: translateX(6px);
+    -webkit-transform: translateX(6px);
+}
+.garloLink02:hover{
+    color: var(--primary-color);
+}
+.garloBtn01{
+    background: #000;
+    color: #FFF;
+    height: 55px;
+    font-size: 15px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 44px 0 35px;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s;
+}
+.garloBtn01 span{
+    position: relative;
+    z-index: 2;
+}
+.garloBtn01 i{
+    color: var(--primary-color);
+    font-size: 21px;
+    margin: 0 0 0 12px;
+    transition: all .5s;
+    position: relative;
+    top: 4px;
+}
+.garloBtn01:hover, .garloBtn01:hover i{
+    color: #FFF;
+}
+.garloBtn01:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 150%;
+    background: var(--primary-color);
+    transform-origin: 0 bottom;
+    transform:  translateX(-100%) rotate(-30deg);
+    transition: all .5s;
+}
+.garloBtn01:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    background: var(--primary-color);
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 150%;
+    transform-origin: right bottom;
+    transform: translateX(100%) rotate(30deg);
+    transition: all .5s;
+}
+.garloBtn01:hover:before{
+    left: 0;
+    transform: rotate(0deg);
+    transition: all .5s;
+}
+.garloBtn01:hover:after{
+    right: 0;
+    transform: rotate(0deg);
+    transition: all .5s;
+}
+/*-- video btn --*/
+.popup_video{
+    position: relative;
+    z-index: 2;
+    width: 115px;
+    height: 115px;
+    background: transparent;
+    border: 3px solid #ffffff;
+    line-height: 115px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 50%;
+}
+.popup_video:hover{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.borAnim::before {
+    content: "";
+    border: 2px solid #f3f3f3;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: calc(100% + 100px);
+    height: calc(100% + 100px);
+    border-radius: 50%;
+    animation: zoomBig 3.25s linear infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: .55s;
+    animation-delay: .55s;
+}
+.borAnim::after {
+    content: "";
+    border: 2px solid #f3f3f3;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: calc(100% + 100px);
+    height: calc(100% + 100px);
+    border-radius: 50%;
+    animation: zoomBig 3s linear infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.borAnim:hover:before,
+.borAnim:hover:after{
+    border-color: var(--primary-color);
+}
+.bgAnim02::before{
+    width: calc(100% + 26px);
+    height: calc(100% + 26px);
+    left: -13px;
+    right: 0;
+    top: -13px;
+    z-index: -1;
+    background: var(--primary-color);
+    opacity: .4;
+    position: absolute;
+    content: '';
+    transform: none;
+    border-radius: 50%;
+    animation-fill-mode: both;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    animation: blinker 1.5s ease-in-out infinite;
+    -webkit-animation: blinker 1.5s ease-in-out infinite;
+    -moz-animation: blinker 1.5s ease-in-out infinite;
+}
+.popup_video.bgAnim02{
+    border: none !important;
+    background: transparent !important;
+}
+.popup_video.bgAnim02 i{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: inherit;
+    color: #fff;
+    border-radius: inherit;
+    background: var(--primary-color);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 3;
+}
+.popup_video.bgAnim02:hover i{
+    background: #fff;
+    color: var(--primary-color);
+}
+.bgAnim{
+    animation: shadows 1.4s linear infinite;
+    -webkit-animation: shadows 1.4s linear infinite;
+    -moz-animation: shadows 1.4s linear infinite;
+}
+
+
+/*-----------------------------------------
+/  07. Carousel Nav & Dots
+/-----------------------------------------*/
+.owl-carousel{
+    position: relative;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    height: 62px;
+    width: 62px;
+    background: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--heading-color);
+    font-size: 26px;
+    line-height: 68px;
+
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.owl-carousel .owl-nav button.owl-next{
+    left: auto;
+    right: 20px;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: var(--primary-color);
+    color: #FFF;
+}
